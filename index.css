@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+section{
+    position: relative;
+    background:url(https://images7.alphacoders.com/132/1323196.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 10px 30px 60px white inset;
+    /* object-fit: cover; */
+    /* align-items: center; */
+}
+.up{
+    height: 100vh;
+    width: 100%;
+}
+.nav{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: black;
+}
+.up i{
+    width: 50%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+}
+.home{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-end;
+}
+.snake{
+    position: relative;
+    text-align: center;
+    top: 400px;
+    /* color: black; */
+    /* padding-top: 25%; */
+    font-size: xx-large;
+}
+.down{
+    /* height: 100vh; */
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items:center ;
+    flex-wrap: wrap;
+    display: flex;
+    /* transition: all 1s; */
+}
+.types{
+    /* height: auto; */
+    width: 250px;
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 1px solid black; */
+    transition: all  0.4s ease-in-out;
+
+    
+}
+.types:hover{
+    transform: scale(1.2);
+
+
+}
+
+.types img{
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 6px black;
+}
+.down p{
+    font-size: xx-large;
+    margin-top: 10px ;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+
+}
+.down .info{
+    margin: 20px;
+    font-size: small;
+    justify-content: center;
+}
